@@ -2,7 +2,7 @@ import {describe, expect, test} from '@jest/globals'
 import { result } from "./index";
 
 describe('JavaScript DataStructure Implementation', () => {
-  describe('- Arrays: Convert from Associated Key Object into Array', () => {
+  describe('- Arrays: Transform Object with associated key values into elements of an Array', () => {
     const elems = { "test": true };
     const input = result(elems);
     test(`The input is Object with Record()<test = true>`, () => {
